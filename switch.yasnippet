@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# key: switch
+# contributor: Translated from TextMate Snippet
+# name: switch
+# --
+switch( ${1:eval-expr},
+	${2:a} = ${3:expr},
+	${4:b} = ${5:expr},
+	$0,
+	stop( "'$1' not matched" )
+)
